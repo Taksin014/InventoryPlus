@@ -2,7 +2,7 @@
 @section('content')
     <div class="main-wrapper">
         <div class="account-content">
-            <a href="{{ route('form/job/list') }}" class="btn btn-primary apply-btn">Apply Job</a>
+            {{-- <a href="{{ route('form/job/list') }}" class="btn btn-primary apply-btn">Apply Job</a> --}}
             <div class="container">
                 <!-- Account Logo -->
                 <div class="account-logo">
@@ -40,7 +40,7 @@
                                     </span>
                                 @enderror
                             </div>
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <div class="row">
                                     <div class="col">
                                         <label></label>
@@ -51,7 +51,7 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group text-center">
                                 <button class="btn btn-primary account-btn" type="submit">Login</button>
                             </div>
